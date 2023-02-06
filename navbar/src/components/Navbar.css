@@ -46,6 +46,9 @@ nav{
     background-color:white;
 }
 .btn{
+    display: flex;
+    align-items: center;
+    height: 6vh;
     font-size: 1.2rem;
     border-radius: 5%;
     padding:0.5rem;

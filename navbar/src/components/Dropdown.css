@@ -1,0 +1,32 @@
+.dropdown-menu{
+    position: absolute;
+    top: 3.3rem;
+    background-color: black;
+    width: 7rem;
+    text-align: start;
+    display: block;
+}
+.submenu-item{
+    list-style: none;
+    cursor: pointer;
+}
+.submenu-item a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+.submenu-item:hover{
+    color:black;
+    background-color:white;
+}
+
+.submenu-item.clicked {
+   display:none;
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
